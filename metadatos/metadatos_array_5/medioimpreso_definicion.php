@@ -1,0 +1,37 @@
+<?php
+global $tabla;
+$this->array_data[$tabla.'_definicion']['id'.$tabla.'_tipo'] = 'primaria1_auto';
+$this->array_data[$tabla.'_definicion'][$tabla.'_tipo'] = 'inputunico_ppal';
+$this->array_data[$tabla.'_definicion']['archivoPortada_tipo'] = 'input';
+$this->array_data[$tabla.'_definicion']['idTipodemedio_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idCategoriamedio_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idUbicacionmedio_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idIdioma_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idEditorial_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['coleccion_tipo'] = 'input';
+$this->array_data[$tabla.'_definicion']['edicion_tipo'] = 'input';
+$this->array_data[$tabla.'_definicion']['idTipoidentificador_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['numeroidentificador_tipo'] = 'inputunico_ppal';
+$this->array_data[$tabla.'_definicion']['idTamanomedio_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idCondicionmedio_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['idTipoaudiencia_tipo'] = 'foranea2';
+$this->array_data[$tabla.'_definicion']['palabrasclave_tipo'] = 'textarea';
+$this->array_data[$tabla.'_definicion']['estado_tipo'] = 'sino';
+$this->array_data[$tabla.'_definicion']['id'.$tabla.'_rotulo'] = 'C&oacute;digo del Medio Impreso';
+$this->array_data[$tabla.'_definicion'][$tabla.'_rotulo'] = 'Nombre del Medio Impreso';
+$this->array_data[$tabla.'_definicion']['archivoPortada_rotulo'] = 'Archivo de la Portada';
+$this->array_data[$tabla.'_definicion']['idTipodemedio_rotulo'] = 'Tipo de Medio';
+$this->array_data[$tabla.'_definicion']['idCategoriamedio_rotulo'] = 'Categor&iacute;a del Medio';
+$this->array_data[$tabla.'_definicion']['idUbicacionmedio_rotulo'] = 'Ubicaci&oacute;n del Medio';
+$this->array_data[$tabla.'_definicion']['idIdioma_rotulo'] = 'Idioma';
+$this->array_data[$tabla.'_definicion']['idEditorial_rotulo'] = 'Editorial';
+$this->array_data[$tabla.'_definicion']['coleccion_rotulo'] = 'Colecci&oacute;n';
+$this->array_data[$tabla.'_definicion']['edicion_rotulo'] = 'Edici&oacute;n';
+$this->array_data[$tabla.'_definicion']['idTipoidentificador_rotulo'] = 'Tipo de Identificador';
+$this->array_data[$tabla.'_definicion']['numeroidentificador_rotulo'] = 'N&uacute;mero del Medio (Identificador)';
+$this->array_data[$tabla.'_definicion']['idTamanomedio_rotulo'] = 'Tama&ntilde;o';
+$this->array_data[$tabla.'_definicion']['idCondicionmedio_rotulo'] = 'Condici&oacute;n';
+$this->array_data[$tabla.'_definicion']['idTipoaudiencia_rotulo'] = 'Tipo de Audiencia';
+$this->array_data[$tabla.'_definicion']['palabrasclave_rotulo'] = 'Palabras Clave (Separadas por comas)';
+$this->array_data[$tabla.'_definicion']['estado_rotulo'] = 'Activo?';
+?>
